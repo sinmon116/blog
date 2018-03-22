@@ -1,0 +1,25 @@
+<?php 
+
+ return array (
+  0 => 'id',
+  'PRI' => 'id',
+  1 => 'uname',
+  2 => 'tid',
+  3 => 'aid',
+  4 => 'title',
+  5 => 'content',
+  6 => 'addtime',
+  7 => 'addip',
+  8 => 'classid',
+  9 => 'replycount',
+  10 => 'hits',
+  11 => 'istop',
+  12 => 'elite',
+  13 => 'ishot',
+  14 => 'rate',
+  15 => 'attachment',
+  16 => 'isdel',
+  17 => 'style',
+  18 => 'isdisplay',
+  19 => 'fphoto',
+);

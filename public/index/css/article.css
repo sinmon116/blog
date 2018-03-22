@@ -1,0 +1,428 @@
+.atl-main h1{
+	color:#0b5861;
+	font-size:24px;
+}
+.atl-main h3{
+	clear:right;
+}
+.atl-main h3 a{
+	color:#8d8d8c;
+	font-size:10px;
+	padding: 15px 0 0 22px;
+}
+.atl-main .meta{
+	line-height:12px;
+}
+.atl-main .meta i{
+	display:inline-block;
+	width:25px;
+	height:12px;
+	position:relative;
+	top:2px;
+}
+.atl-main .at {
+	margin-left:15px;
+}
+.atl-main .vw i{
+	background-position: 0 0;
+}
+.atl-main .ct i{
+	background-position: -25px 0;
+}
+.atl-main .sc i{
+	background-position: -45px 0;
+}
+.atl-main .cnt{
+	height:auto!important;
+	word-break: break-all;  
+}
+.atl-main .cnt p {
+  color: #000;
+  line-height: 26px;
+  padding-bottom: 5px;
+}
+.atl-main .votebar{
+	position: relative;
+}
+.atl-main .votebar button,.atl-main .editbar button {
+	height:75px;
+	font-size:17px;
+	color:#fff;
+	cursor:pointer;
+	line-height:72px;
+}
+.atl-main .votebar button.t1,.atl-main .votebar button.t2,.atl-main .editbar button.t1{
+	width:208px;
+	background-color:#18c5d0;
+}
+.atl-main .votebar button.t3,.atl-main .votebar button.t4{
+	width:133px;
+	background-color:#2ca8b1;
+}
+.atl-main .votebar i{
+	display:inline-block;
+	width:36px;
+	height:44px;
+	position:relative;
+	top:15px;
+}
+.atl-main .votebar button.t1 i {
+  background-position: -63px -93px;
+}
+.atl-main .votebar button.t2 i {
+  background-position: -158px -93px;
+}
+.atl-main .votebar button.t3 i {
+  background-position: -253px -83px;
+}
+.atl-main .votebar button.t4 i {
+  background-position: -722px -86px;
+}
+.atl-main .votebar button:hover i{
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+}
+.atl-main .votebar .e-point{
+	height:27px;
+	margin-bottom:15px;
+	background-position:-2px -216px;
+}
+.atl-main .votebar .e-point div{
+	height:27px;
+	float:right;
+}
+.atl-main .votebar .e-point div.l {
+  background-position: 0 -93px;
+  width: 54px;
+  line-height:27px;
+  text-align:center;
+  color:#1edbe6;
+  font-size:12px;
+}
+.atl-main .votebar .e-point div.m{
+	width:640px;
+	background-color:#e6e6e6;
+	border-radius: 0 30px 30px 0;
+}
+.atl-main .votebar .e-point div.r {
+	background-position: -32px -256px;
+	width: 19px;
+}
+.atl-cmtbox .ta{
+	width:562px;
+	height:71px;
+	resize:none;
+	overflow:hidden;
+	border:2px solid #dcebed;
+	border-right:none;
+	padding:5px;
+	font-size:14px;
+	word-break : break-all;
+}
+.atl-cmtbox .but {
+  background-color: #0a5962;
+  background-image: -moz-linear-gradient(center top , #046c77, #0a5962, #046c77);
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  height: 85px;
+  text-align: center;
+  width: 120px;
+}
+.atl-cmtbox .but:hover{
+	opacity:0.9;
+	filter:alpha(opacity=90);
+}
+.atl-cmtlist {
+	width:100%;
+}
+.atl-cmtlist .head{
+	border-bottom:1px solid #e6e6e6;
+	padding-bottom:6px;
+}
+.atl-cmtlist .head span{
+	display:inline-block;
+	padding:2px 10px;
+	background-color:#045f68;
+	color:#fff;
+}
+.atl-cmtlist .body .rbox{
+	padding-left:80px;
+}
+.atl-cmtlist .body .rrbox{
+	padding-left:72px;
+}
+.atl-cmtlist .body .rbox .nickbar{
+	background-color:#eef6f7;
+	line-height:30px;
+	position:relative;
+}
+.atl-cmtlist .body .rbox .nickbar a.p7{
+	padding-left:7px;
+}
+.atl-cmtlist .body .rbox .nickbar i.lab {
+  background-position: 10000px 10000px;
+  color: #fff;
+  font-size: 12px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  text-indent: 20px;
+  top: 2px;
+  width: 146px;
+  background-position:10000px 10000px;
+}
+.atl-cmtlist .body .rbox .nickbar i.r1{
+	background-position:0 -162px;
+}
+.atl-cmtlist .body .rbox .nickbar i.r2{
+	background-position:-156px -162px;
+}
+.atl-cmtlist .body .rbox .nickbar i.r3{
+	background-position:-313px -162px;
+}
+.atl-cmtlist .body .rbox .nickbar .point i.r1{
+	background-position: -401px -90px;
+}
+.atl-cmtlist .body .rbox .nickbar .point i.r2{
+	background-position: -444px -90px;
+}
+.atl-cmtlist .body .rbox .nickbar .point i.r3{
+	background-position: -488px -90px;
+}
+.atl-cmtlist .body .rbox .cnt{
+	padding:10px 7px;
+}
+.atl-cmtlist .body .rbox .btbar span.date{
+	color:#b4b4b4;
+	float:left;
+	margin-right:10px;
+	padding-left:7px;
+}
+.atl-cmtlist .body .rbox .btbar a{
+	float:right;
+	margin-left: 25px;
+	color:#5cbbc3;
+}
+.atl-cmtlist .body .rbox .btbar a i{
+	display:inline-block;
+	float:left;
+	height:17px;
+	margin-right:5px;
+}
+.atl-cmtlist .body .rbox .btbar a:hover i{
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}
+.atl-cmtlist .body .rbox .btbar a.jia i{
+	background-position: -123px 0;
+	width:15px;
+}
+.atl-cmtlist .body .rbox .btbar a.jian i{
+	background-position: -145px 0;
+	width:15px;
+}
+.atl-cmtlist .body .rbox .btbar a.ping i{
+	background-position: -96px 0;
+	width:20px;
+}
+.atl-cmtlist .body .rdiv{
+	padding-left:87px;
+}
+.atl-cmtlist .body .rdiv li{
+	margin-top:20px;
+}
+.atl-cmtlist .body .rbox .btbar a.cping{
+	float:none;
+}
+.atl-cmtlist .body .rbox .rnickbar{
+	background-color:transparent;
+	line-height:10px;
+	padding-left:7px;
+}
+.atl-cmtlist .body .rbox  a{
+	color:#2da7af;
+}
+.atl-cmtlist .body ul li{
+
+	margin-top:24px;
+}
+.atl-cmtlist .body .rdiv .textarea{
+	width:494px;
+	padding:6px 8px;
+	height:18px;
+	border:1px solid #e4e4e4;
+	float:left;
+	margin-right:6px;
+	resize:none;
+	word-break : break-all;
+	overflow-x:auto;
+}
+.atl-cmtlist .body .rdiv  img{
+	color:#adadad;
+}
+.atl-cmtlist .body .rdiv  button{
+	background: none;
+	color:#adadad;
+}
+.atl-cmtlist .body .rdiv input{
+	width:90px;
+	height:32px;
+	float:right;
+	background-color:transparent;
+	border:1px solid #e4e4e4;
+	color:#b8b8b8;
+}
+.atl-cmtlist .body .rdiv div.active{
+	border:1px solid #dbdbdb;
+	height:60px;
+	color:#595959;
+}
+.atl-cmtlist .body .rdiv input.active{
+	background-color:#156770;
+	color:#fff;
+	cursor:pointer;
+}
+.atl-cmtlist .body .rbox .nickbar div{
+	height:2px;
+	background-color:#5abbc2;
+	position:relative;
+}
+.atl-cmtlist .body .rbox .nickbar div i {
+  background-position: -357px -90px;
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  height: 45px;
+  line-height: 39px;
+  position: absolute;
+  right: -16px;
+  text-align: center;
+  top: -50px;
+  width: 35px;
+  display:none;
+}
+.atl-uinfo-p{
+	font-size:12px;
+	color:#0b5860;
+	font-weight:bolder;
+	line-height:33px;
+	display:inline-block;
+	width:175px;
+	float:right;
+	border-bottom:1px dashed #e5e5e5;
+}
+.atl-uinfo-p .house {
+  background-position: -72px 0;
+  float: right;
+  height: 20px;
+  margin: 7px 3px 0 0;
+  width: 20px;
+}
+.atl-add .desc{
+	padding: 10px 0;
+	line-height:24px;
+	color:#969696;
+	font-size:14px;
+}
+.atl-add .tle input {
+  border: 1px solid #dedede;
+  font-size: 16px;
+  height: 40px;
+  text-indent: 8px;
+  width: 100%;
+}
+.atl-add .but input.pre {
+  margin-left:5px;
+}
+.atl-add .pic {
+  float: left;
+  line-height: 40px;
+  margin: 110px 0 0 27px;
+  width: 140px;
+}
+.atl-add ul li {
+  float: left;
+  height: 90px;
+  margin: 12px 13px 0 0;
+  overflow: hidden;
+  width: 105px;
+}
+.atl-add ul li img{
+  height: 90px;
+  width: 105px;
+}
+.atl-add ul li div{
+	float: left;
+	height: 90px;
+	overflow: hidden;
+	position: relative;
+	width: 105px;
+	top:-90px;
+	background-color:#000;
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+}
+.atl-add h3{
+	font-size:16px;
+}
+.atl-add h3 a {
+  border-bottom: 1px dashed gray;
+  cursor: pointer;
+  float: right;
+  
+}
+.atl-add-bg {
+  background: url("../images/atl-add-bg.jpg") repeat scroll 0 0 transparent;
+  color: #fff;
+  height: 207px;
+  padding-top: 40px;
+  width: 100%;
+}
+.atl-add-bg h3 {
+  font-size: 24px;
+  padding:20px 35px 0;
+}
+.atl-add-bg p {
+  line-height: 25px;
+  padding: 0 35px;
+}
+.atl-add-head {
+  background: url("../images/atl-add-bg1.png") no-repeat scroll 0 0 transparent;
+  height: 170px;
+}
+.atl-add-board{
+	width:465px;
+	height:407px;
+	margin:50px auto 50px auto;
+	background: url("../images/atl-add-boardall.png") no-repeat scroll 0 0 transparent;
+}
+.atl-add-board .cnt{
+	padding:150px 90px 0 120px;
+}
+.atl-add-board .cnt p{
+	line-height:30px;
+}
+.atl-add-board dl {
+  display: inline-block;
+  float: right;
+  position: relative;
+  text-align: right;
+  top: 20px;
+}
+.atl-add-board dl dt img{
+	width:50px;
+	height:50px;
+}
+.atl-add-board dl dd{
+	font-size:12px;
+}
+.atl-main .wqzt li{
+	display:inline-block;
+	margin-right:14px;
+	text-align:center;
+}
+.atl-main .wqzt img{
+	width:160px;
+}
